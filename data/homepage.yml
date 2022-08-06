@@ -116,34 +116,34 @@ client_and_work:
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+        x: "img/clients/iaas-icon.png"
+        _2x: "img/clients/iaas-icon.png"
+      alt: "Infrastructure"
 
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/clients/paas-icon.png"
+        _2x: "img/clients/paas-icon.png"
+      alt: "Platform"
 
     - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+        x: "img/clients/SaaS.png"
+        _2x: "img/clients/SaaS.png"
+      alt: "Automation"
 
     - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+        x: "img/clients/monitoring-icon.png"
+        _2x: "img/clients/monitoring-icon.png"
+      alt: "Operations"
 
     - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+        x: "img/clients/cpbx.png"
+        _2x: "img/clients/cpbx.png"
+      alt: "CPBX"
 
     - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+        x: "img/clients/Teams.png"
+        _2x: "img/clients/Teams.png"
+      alt: "Teams"
 
   works:
     - title: "Class 4 - SoftSwitch"
@@ -153,8 +153,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/SSW.png"
+        _2x: "img/works/SSW.png"
       is_even: true
 
     - title: "Class 5 - Unified Communication & PBX"
@@ -164,8 +164,8 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/cpbx-portal.png"
+        _2x: "img/works/cpbx-portal.png"
       is_even: false
 
     - title: "RM.SIP Proxy for Microsoft Teams"
@@ -175,13 +175,35 @@ client_and_work:
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/SBC.png"
+        _2x: "img/works/SBC.png"
+      is_even: true
+
+    - title: "Monitoring & Analyzer"
+      description: "SIP Monitoring & Analyzer By Homer - A robust, carrier-grade and modular VoIP and RTP capture framework for Analyzing and Monitoring with native support for all major OSS voice platforms and vendor-agnostic capture agents."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/sipcapture1.gif"
+        _2x: "img/works/sipcapture1.gif"
+      is_even: false
+
+    - title: "Zabbix Montoring"
+      description: "An enterprise-class with a single pane of glass view of your whole IT infrastructure stack."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/zabbix_dashboard.jpeg"
+        _2x: "img/works/zabbix_dashboard.jpeg"
       is_even: true
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Tech Stack"
   items:
     - name: "Daniel Jordan"
@@ -216,13 +238,13 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "+61 (0) 3 9998 0490"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:consult@rabbani.com.au">consult@rabbani.com.au</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Rabbani Pty Ltd<br />Melbourne, VIC 3024 Australia"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
